@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@mixin  Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin  RobotoBold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
