@@ -1,0 +1,22 @@
+.info {
+    @include Roboto();
+}
+
+.pagination {
+    &-button {
+        padding: 5px 10px;
+        border: $border;
+        border-radius: 3px;
+        font-size: 14px;
+        transition: .3s;
+
+        cursor: pointer;
+
+        @include Roboto();
+
+        &:hover {
+            background-color: $color-main;
+            color: white;
+        }
+    }
+}

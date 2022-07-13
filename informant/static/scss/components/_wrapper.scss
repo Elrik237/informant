@@ -1,0 +1,19 @@
+html, body, .wrapper {
+    height: 100%;
+}
+
+$container-size: 1200px + ($padding * 2);
+
+.wrapper {
+    position: relative;
+    width: 100%;
+
+    background-color: $color-bg;
+
+    &-content {
+        max-width: $container-size;
+        margin: 0 auto;
+        height: 100%;
+        padding: $padding;
+    }
+}

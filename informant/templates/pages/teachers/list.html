@@ -1,0 +1,21 @@
+{% extends 'pages/base.html' %}
+
+{% block header %}
+{% endblock header %}
+
+{% block main %}
+<div class="wrapper-content">
+    <div class="page">
+        <div class="page-header page-block">
+
+        </div>
+        <div class="page-body page-block">
+            {% include 'components/global/tableTeacher.html' %}
+            {% include 'components/global/paginations.html' %}
+        </div>
+    </div>
+</div>
+{% endblock main %}
+
+{% block scripts %}
+{% endblock scripts %}

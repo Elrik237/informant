@@ -1,0 +1,22 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+
+    @include Roboto();
+    
+    border: $border;
+
+    td, th {
+        border: $border;
+    }
+
+    th {
+        padding: $padding;
+    }
+
+    td {
+        padding: $padding;
+    }
+
+    
+}
